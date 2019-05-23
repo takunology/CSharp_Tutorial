@@ -1,0 +1,14 @@
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\bin\Debug\002 簡易計算ツール.exe.config
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\bin\Debug\002 簡易計算ツール.exe
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\bin\Debug\002 簡易計算ツール.pdb
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\MainWindow.g.cs
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\App.g.cs
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\002 簡易計算ツール_MarkupCompile.cache
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\002 簡易計算ツール_MarkupCompile.lref
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\MainWindow.baml
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\002 簡易計算ツール.g.resources
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\_002_簡易計算ツール.Properties.Resources.resources
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\002 簡易計算ツール.csproj.GenerateResource.cache
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\002 簡易計算ツール.csproj.CoreCompileInputs.cache
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\002 簡易計算ツール.exe
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\002 簡易計算ツール\002 簡易計算ツール\obj\Debug\002 簡易計算ツール.pdb

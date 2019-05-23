@@ -1,0 +1,15 @@
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\bin\Debug\001 入出力と変数.exe.config
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\bin\Debug\001 入出力と変数.exe
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\bin\Debug\001 入出力と変数.pdb
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数.csprojAssemblyReference.cache
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\MainWindow.g.cs
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\App.g.cs
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数_MarkupCompile.cache
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数_MarkupCompile.lref
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\MainWindow.baml
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数.g.resources
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\_001_入出力と変数.Properties.Resources.resources
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数.csproj.GenerateResource.cache
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数.csproj.CoreCompileInputs.cache
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数.exe
+C:\Users\takun\Documents\GitHub\CSharp_Tutorial\001 入出力と変数\001 入出力と変数\obj\Debug\001 入出力と変数.pdb
