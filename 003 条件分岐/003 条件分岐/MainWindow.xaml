@@ -1,0 +1,18 @@
+﻿<Window x:Class="_003_条件分岐.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_003_条件分岐"
+        mc:Ignorable="d"
+        Title="003 条件分岐" Height="200" Width="300">
+    <Grid>
+        <RadioButton Content="伊右衛門" HorizontalAlignment="Left" Margin="44,59,0,0" VerticalAlignment="Top" x:Name="Iemon"/>
+        <RadioButton Content="綾鷹" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top" x:Name="Ayataka"/>
+        <RadioButton Content="爽健美茶" HorizontalAlignment="Left" Margin="44,99,0,0" VerticalAlignment="Top" x:Name="Souken"/>
+        <RadioButton Content="黒烏龍茶" HorizontalAlignment="Left" Margin="44,119,0,0" VerticalAlignment="Top" x:Name="Kuro"/>
+        <Label Content="お好きなお茶を選んでください" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button Content="これに決めた！" HorizontalAlignment="Left" Margin="169,68,0,0" VerticalAlignment="Top" Width="93" Height="52" Click="Button_Click"/>
+
+    </Grid>
+</Window>
