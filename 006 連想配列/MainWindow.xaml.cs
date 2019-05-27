@@ -70,7 +70,6 @@ namespace _006_連想配列
             mainWindow.Label_array1.Content = key[1];
             mainWindow.Label_array2.Content = key[2];
             mainWindow.Label_array3.Content = key[3];
-
         }
 
         private void Button_Write(object sender, RoutedEventArgs e)
