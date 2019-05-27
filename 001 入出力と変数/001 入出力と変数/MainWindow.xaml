@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="001 入出力と変数" Height="200" Width="400" ResizeMode="NoResize">
     <Grid>
-        <Label Content="入力する値" HorizontalAlignment="Left" Margin="55,61,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textbox" Height="23" Margin="125,64,147,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="入力" HorizontalAlignment="Left" Margin="55,61,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textbox" Height="23" Margin="108,64,166,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="確定" HorizontalAlignment="Left" Margin="268,64,0,0" VerticalAlignment="Top" Width="74" Click="Button_Click" Height="23"/>
 
     </Grid>
