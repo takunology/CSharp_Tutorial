@@ -1,0 +1,26 @@
+﻿<Window x:Class="_006_連想配列.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_006_連想配列"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Label Content="配列[0]" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="配列[1]" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="配列[2]" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top"/>
+        <Label Content="配列[3]" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="58,14,0,0" TextWrapping="Wrap" Text="なにか" VerticalAlignment="Top" Width="120" x:Name="Textbox0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="58,44,0,0" TextWrapping="Wrap" Text="文字を" VerticalAlignment="Top" Width="120" x:Name="Textbox1"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="58,75,0,0" TextWrapping="Wrap" Text="入力" VerticalAlignment="Top" Width="120" x:Name="Textbox2"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="58,107,0,0" TextWrapping="Wrap" Text="してみて" VerticalAlignment="Top" Width="120" x:Name="Textbox3"/>
+        <Button Content="書き換える" HorizontalAlignment="Left" Margin="58,139,0,0" VerticalAlignment="Top" Width="90" Click="Button_Write" />
+        <Label Content="配列名" HorizontalAlignment="Left" Margin="197,10,0,0" VerticalAlignment="Top" x:Name="Label_array0" Height="27"/>
+        <Label Content="配列名" HorizontalAlignment="Left" Margin="197,41,0,0" VerticalAlignment="Top" Height="26" x:Name="Label_array1"/>
+        <Label Content="配列名" HorizontalAlignment="Left" Margin="197,72,0,0" VerticalAlignment="Top" Height="27" x:Name="Label_array2"/>
+        <Label Content="配列名" HorizontalAlignment="Left" Margin="197,107,0,0" VerticalAlignment="Top" Height="27" x:Name="Label_array3"/>
+        <Button Content="表示" HorizontalAlignment="Left" Margin="161,139,0,0" VerticalAlignment="Top" Width="90" Click="Button_Show"/>
+
+    </Grid>
+</Window>
