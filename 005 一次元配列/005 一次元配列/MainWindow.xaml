@@ -7,13 +7,14 @@
         mc:Ignorable="d"
         Title="004 一次元配列" Height="200" Width="300">
     <Grid>
-        <Label Content="好きな文字を入力。メッセージにその文字が&#xD;&#xA;表示されます。" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="配列にデータを格納して、それを表示します。" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Label Content="メッセージ1" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
         <Label Content="メッセージ2" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top"/>
         <Label Content="メッセージ3" HorizontalAlignment="Left" Margin="10,114,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="75,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="message1"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="75,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="75,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="75,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="msg1" Text="何か入力してね"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="75,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="msg2" Text="メッセージが表示"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="75,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" x:Name="msg3" Text="されるよ！"/>
+        <Button Content="確定" HorizontalAlignment="Left" Margin="207,139,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
     </Grid>
 </Window>
