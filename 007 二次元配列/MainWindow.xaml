@@ -9,6 +9,7 @@
     <Grid>
         <Button Content="生成する" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <TextBox Margin="10,35,10,10" TextWrapping="Wrap" Text=""  x:Name="view"/>
+        <Label Content="九九の表が表示されます。" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top"/>
 
 
     </Grid>
