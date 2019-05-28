@@ -1,0 +1,16 @@
+﻿<Window x:Class="_008_クラスを使う.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_008_クラスを使う"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Button Content="車クラス" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="Car_Show_Button"/>
+        <Button Content="人間クラス" HorizontalAlignment="Left" Margin="105,10,0,0" VerticalAlignment="Top" Width="75" Click="Human_Show_Button"/>
+        <TextBox Margin="10,66,10,10" TextWrapping="Wrap" x:Name="data_text"/>
+        <Label Content="選択したクラスの保持しているデータを示します。" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
