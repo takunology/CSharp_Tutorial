@@ -42,14 +42,14 @@ namespace _011_Listを使ったWPF
         {
             var mainWindow = (MainWindow)App.Current.MainWindow;
 
-            mainWindow.array.Content = "要素数: " + a.add_count();
+            mainWindow.array.Content = "要素数 : " + a.add_count();
         }
 
         private void Button_down(object sender, RoutedEventArgs e)
         {
             var mainWindow = (MainWindow)App.Current.MainWindow;
 
-            mainWindow.array.Content = "要素数: " + a.sub_count();
+            mainWindow.array.Content = "要素数 : " + a.sub_count();
         }
     }
 
@@ -59,7 +59,7 @@ namespace _011_Listを使ったWPF
 
         public int add_count()
         {
-            return array++;
+            return array = array + 1;
         }
 
         public int sub_count()
@@ -69,7 +69,7 @@ namespace _011_Listを使ったWPF
                 MessageBox.Show("0より小さい値は無効です。");
                 return array;
             }
-            return array--;
+            return array = array - 1;
         }
     }
 }
