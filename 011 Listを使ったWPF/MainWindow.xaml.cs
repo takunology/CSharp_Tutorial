@@ -21,7 +21,9 @@ namespace _011_Listを使ったWPF
     public partial class MainWindow : Window
     {
         //Array クラスのインスタンス化
-        Array a = new Array();
+        ArrayConfig ac = new ArrayConfig();
+
+        int count_elements = 0; 
 
         public MainWindow()
         {
@@ -34,26 +36,31 @@ namespace _011_Listを使ったWPF
             //配列と違って要素数を指定しなくてもよい
             List<string> data = new List<string>();
 
+            for (int i = 0; i < count_elements; i++)
+            {
+                data.Add("ほげほげ");
+            }
 
-            
+            MessageBox.Show(count_elements + " 回目" + "内容 = " + data.ToString());
         }
 
         private void Button_up(object sender, RoutedEventArgs e)
         {
             var mainWindow = (MainWindow)App.Current.MainWindow;
 
-            mainWindow.array.Content = "要素数 : " + a.add_count();
+            count_elements = ac.add_count();
+            mainWindow.array.Content = "要素数 : " + count_elements.ToString();
         }
 
         private void Button_down(object sender, RoutedEventArgs e)
         {
             var mainWindow = (MainWindow)App.Current.MainWindow;
 
-            mainWindow.array.Content = "要素数 : " + a.sub_count();
+            mainWindow.array.Content = "要素数 : " + count_elements.ToString();
         }
     }
 
-    public class Array
+    public class ArrayConfig
     {
         int array = 0;
 
