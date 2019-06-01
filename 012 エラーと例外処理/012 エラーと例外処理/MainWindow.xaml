@@ -1,0 +1,21 @@
+﻿<Window x:Class="_012_エラーと例外処理.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_012_エラーと例外処理"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="220" Width="180">
+    <Grid>
+        <Button Content="▲" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="30" Click="ArrayUp_Button"/>
+        <Button Content="▼" HorizontalAlignment="Left" Margin="45,41,0,0" VerticalAlignment="Top" Width="30" Click="ArrayDown_Button"/>
+        <Label Content="確保する配列の要素数" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label Content="要素数" HorizontalAlignment="Left" Margin="95,38,0,0" VerticalAlignment="Top" x:Name="array_label"/>
+        <Label Content="要素に代入するデータ数" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top"/>
+        <Button Content="▲" HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top" Width="30"  Click="DataUp_Button"/>
+        <Button Content="▼" HorizontalAlignment="Left" Margin="45,111,0,0" VerticalAlignment="Top" Width="30" Click="DataDown_Button"/>
+        <Label Content="データ数" HorizontalAlignment="Left" Margin="93,108,0,0" VerticalAlignment="Top" x:Name="data_label"/>
+        <Button Content="データを書き込む" HorizontalAlignment="Left" Margin="33,0,0,10" Width="100" Click="Accept_Button" Height="20" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>
