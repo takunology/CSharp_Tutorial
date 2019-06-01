@@ -21,9 +21,11 @@ namespace _011_Listを使ったWPF
     public partial class MainWindow : Window
     {
         //Array クラスのインスタンス化
-        ArrayConfig ac = new ArrayConfig();
+        //readonly はクラスに対しての書き換えを禁止
+        readonly ArrayConfig ac = new ArrayConfig();
 
-        int count_elements = 0; 
+        //設定した要素数
+        int count_elements = 0;
 
         public MainWindow()
         {
@@ -36,12 +38,18 @@ namespace _011_Listを使ったWPF
             //配列と違って要素数を指定しなくてもよい
             List<string> data = new List<string>();
 
+            //設定した要素数の数だけ List にデータを追加
+            //データの追加には Add メソッドを用いる
             for (int i = 0; i < count_elements; i++)
             {
-                data.Add("ほげほげ");
+                data.Add("データ" + (i + 1).ToString());
             }
 
-            MessageBox.Show(count_elements + " 回目" + "内容 = " + data.ToString());
+            //設定した要素の数だけメッセージボックスに表示回数と要素N番目のデータを表示
+            for (int i = 0; i < count_elements; i++)
+            {
+                MessageBox.Show("表示回数 : " + (i + 1).ToString() + "\n要素 " + i + " = " + data[i].ToString());
+            }
         }
 
         private void Button_up(object sender, RoutedEventArgs e)
@@ -56,6 +64,7 @@ namespace _011_Listを使ったWPF
         {
             var mainWindow = (MainWindow)App.Current.MainWindow;
 
+            count_elements = ac.sub_count();
             mainWindow.array.Content = "要素数 : " + count_elements.ToString();
         }
     }
@@ -66,7 +75,7 @@ namespace _011_Listを使ったWPF
 
         public int add_count()
         {
-            return array = array + 1;
+            return array += 1;
         }
 
         public int sub_count()
@@ -76,7 +85,7 @@ namespace _011_Listを使ったWPF
                 MessageBox.Show("0より小さい値は無効です。");
                 return array;
             }
-            return array = array - 1;
+            return array -= 1;
         }
     }
 }
