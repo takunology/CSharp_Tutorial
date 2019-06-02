@@ -43,7 +43,7 @@ namespace _013_ファイル入出力
         //追記
         private void Add_Button(object sender, RoutedEventArgs e)
         {
-            //上書きクラスのインスタンス化
+            //追記クラスのインスタンス化
             AddWrite addWrite = new AddWrite();
 
             filename = WriteFileName.Text.ToString();

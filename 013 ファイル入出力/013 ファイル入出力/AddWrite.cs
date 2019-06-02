@@ -15,7 +15,7 @@ namespace _013_ファイル入出力
             string filename = FileName + ".txt";
             string text = gettext;
 
-            if(filename == ".txt")
+            if (filename == ".txt")
             {
                 MessageBox.Show("ファイル名が空白です", "ファイル保存", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
