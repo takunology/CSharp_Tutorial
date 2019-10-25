@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="300" Width="300">
     <Grid>
-        <Button Content="山へ行く" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="75" Click="Button_Moutain"/>
+        <Button Content="山へ行く" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="75" Click="Button_Mountain"/>
         <Button Content="海へ行く" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top" Width="75" Click="Button_Sea"/>
         <Button Content="家でゴロゴロ" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" Width="75" Click="Button_House"/>
         <Label Content="お出かけしましょ" HorizontalAlignment="Left" Margin="85,35,0,0" VerticalAlignment="Top" FontSize="16"/>

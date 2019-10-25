@@ -25,14 +25,14 @@ namespace _016_インターフェース
             InitializeComponent();           
         }
 
-        Sea sea = new Sea();
-        Mountain mountain = new Mountain();
-        House house = new House();
-        //Place place = new Place();
+        //メソッド1つで3種類のクラスを使うインターフェース
+        Place mountain = new Mountain();
+        Place sea = new Sea();
+        Place house = new House();
 
         private void Button_Mountain(object sender, RoutedEventArgs e)
         {
-            
+            Go(mountain);
         }
 
         private void Button_Sea(object sender, RoutedEventArgs e)
@@ -45,14 +45,19 @@ namespace _016_インターフェース
 
         }
 
-        public interface Place
+        public void Go(Place place)
+        {
+            MessageBox.Show($"{place.Go().ToString()} + へ行った");
+        }
+
+        public interface Place //各クラスをくっつける接着剤
         {
             string Go();
         }
 
         public class Mountain : Place
         {
-           public string Go()
+            public string Go()
             {
                 return "山へお出かけ";
             }
