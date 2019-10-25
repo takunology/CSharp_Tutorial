@@ -32,27 +32,27 @@ namespace _016_インターフェース
 
         private void Button_Mountain(object sender, RoutedEventArgs e)
         {
-            Go(mountain);
+            Go(mountain); // mountainインスタンスを渡す
         }
 
         private void Button_Sea(object sender, RoutedEventArgs e)
         {
-
+            Go(sea); // seaインスタンスを渡す
         }
 
         private void Button_House(object sender, RoutedEventArgs e)
         {
-
+            Go(house); // houseインスタンスを渡す
         }
 
         public void Go(Place place)
         {
-            MessageBox.Show($"{place.Go().ToString()} + へ行った");
+            MessageBox.Show($"{place.Go().ToString()} に決定！");
         }
 
         public interface Place //各クラスをくっつける接着剤
         {
-            string Go();
+            string Go(); //メソッド名だけ宣言
         }
 
         public class Mountain : Place
