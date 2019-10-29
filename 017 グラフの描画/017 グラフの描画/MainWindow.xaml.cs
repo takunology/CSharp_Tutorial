@@ -48,11 +48,10 @@ namespace _017_グラフの描画
                 {
                     y = 1;  //0を超えたら1を出力
                 }
-                //seriesStep.Points.AddXY(x, y);
-                seriesStep.Points.AddXY(x, y);
-                seriesStep.BorderWidth = 3;
+                seriesStep.Points.AddXY(x, y); // y の座標を x の数だけ保持
+                seriesStep.BorderWidth = 3; //線の太さ
             }
-            graph.Series.Add(seriesStep);
+            graph.Series.Add(seriesStep); // 描画する
         }
     }
 }
