@@ -1,0 +1,20 @@
+﻿<Window x:Class="_018_DLLimport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_018_DLLimport"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="400">
+    <Grid>
+        <Button Content="足す" HorizontalAlignment="Left" Margin="88,142,0,0" VerticalAlignment="Top" Width="74" Click="Button_Add"/>
+        <Button Content="掛ける" HorizontalAlignment="Left" Margin="88,186,0,0" VerticalAlignment="Top" Width="74" Click="Button_Sub"/>
+        <Button Content="引く" HorizontalAlignment="Left" Margin="230,142,0,0" VerticalAlignment="Top" Width="76" Click="Button_Multi"/>
+        <Button Content="割る" HorizontalAlignment="Left" Margin="230,186,0,0" VerticalAlignment="Top" Width="74" Click="Button_Div"/>
+        <Label Content="値A" HorizontalAlignment="Left" Margin="75,40,0,0" VerticalAlignment="Top"/>
+        <Label Content="値B" HorizontalAlignment="Left" Margin="217,40,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="75,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="217,71,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
